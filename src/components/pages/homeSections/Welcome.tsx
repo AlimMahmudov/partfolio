@@ -20,8 +20,11 @@ import { FaGitAlt } from "react-icons/fa";
 import { FaFigma } from "react-icons/fa6";
 import { SiVisualstudiocode } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
+import { useLanguageStore } from "@/stores/LanguageStore";
 
 const Welcome = () => {
+  const { t } = useLanguageStore();
+
   return (
     <>
       <section id="home" className={scss.Welcome}>
