@@ -54,7 +54,7 @@ const Header = () => {
               offset={-100}
               duration={700}
             >
-              <h3>M-14</h3>
+              <h3>AlimMah</h3>
             </ScrollLink>
           </div>
 

@@ -28,7 +28,7 @@ const Welcome = () => {
         <div className="container">
           <div className={scss.content}>
             <div className={scss.text}>
-              <h1>Hi, I'm Alim Mahmudov </h1>
+              <h1>Hi, I&apos;m Alim Mahmudov </h1>
               <h2>
                 <Typewriter
                   words={["FRONT-END DEVELOPER"]}

@@ -19,7 +19,7 @@
       align-items: center;
       justify-content: center;
       gap: 20px;
-      background: black;
+      background: rgba(0, 0, 0, 0.925);
       padding: 30px;
       border-radius: 10px;
       width: 900px;
@@ -52,6 +52,7 @@
             background: none;
             color: #adee82;
             outline: none;
+            transition: 0.4s;
           }
           input:hover {
             box-shadow: 0 0 10px #40be0e, 0 0 20px #40be0e, 0 0 30px #40be0e;
@@ -71,6 +72,7 @@
             background: none;
             color: #adee82;
             outline: none;
+            transition: 0.4s;
           }
           textarea:hover {
             box-shadow: 0 0 10px #40be0e, 0 0 20px #40be0e, 0 0 30px #40be0e;
@@ -89,6 +91,7 @@
             border-radius: 50px;
             cursor: pointer;
             color: white;
+            transition: 0.4s;
           }
           .SuButton:hover {
             box-shadow: 0 0 10px #40be0e, 0 0 20px #40be0e;
