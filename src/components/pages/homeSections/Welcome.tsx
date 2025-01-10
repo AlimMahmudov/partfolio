@@ -31,7 +31,7 @@ const Welcome = () => {
         <div className="container">
           <div className={scss.content}>
             <div className={scss.text}>
-              <h1>Hi, I&apos;m Alim Mahmudov </h1>
+              <h1>{t("Welcome.title")}</h1>
               <h2>
                 <Typewriter
                   words={["FRONT-END DEVELOPER"]}
@@ -43,12 +43,7 @@ const Welcome = () => {
                   delaySpeed={1500}
                 />
               </h2>
-              <p>
-                I am an experienced front-end developer with deep knowledge and
-                skills in HTML, CSS, JavaScript, TypeScript coding and
-                programming, as well as working with libraries and frameworks
-                such as React, Redux and Next.js.
-              </p>
+              <p>{t("Welcome.desc")}</p>
               <div className={scss.icons}>
                 <a className={scss.telegram} href="https://t.me/MahmudovAlim">
                   {" "}
