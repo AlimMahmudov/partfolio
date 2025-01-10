@@ -4,7 +4,12 @@
     "desc": "I am an experienced front-end developer with deep knowledge and skills in HTML, CSS, JavaScript, TypeScript coding and programming, as well as working with libraries and frameworks such as React, Redux and Next.js."
   },
   "About": {
-    "title": "Hi, I&apos;m Alim Mahmudov",
+    "title": "Experienced Frontend Developer from Kyrgyzstan",
+    "desc": "I am a frontend developer with extensive experience and deep knowledge in web development. I specialize in markup and programming using HTML, CSS, JavaScript and TypeScript. I have significant experience working with modern libraries and frameworks such as React, Redux and Next.js. I can create effective and responsive user interfaces, ensuring high quality and performance of web applications."
+  },
+  "Contact": {
+    "title": "Contact",
+    "title2": "Me",
     "desc": "I am a frontend developer with extensive experience and deep knowledge in web development. I specialize in markup and programming using HTML, CSS, JavaScript and TypeScript. I have significant experience working with modern libraries and frameworks such as React, Redux and Next.js. I can create effective and responsive user interfaces, ensuring high quality and performance of web applications."
   }
 }

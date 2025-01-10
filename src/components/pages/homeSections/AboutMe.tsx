@@ -26,8 +26,8 @@ const AboutMe = () => {
             <h1>
               About <span>Me</span>
             </h1>
-            <h2>Experienced Frontend Developer from Kyrgyzstan</h2>
-            <p>{t("Welcome.desc")}</p>
+            <h2>{t("About.desc")}</h2>
+            <p>{t("About.desc")}</p>
             <div className={scss.buttons}>
               {links.map((item, index) => (
                 <button id="work" key={index}>

@@ -3,6 +3,7 @@ import React from "react";
 import scss from "../homeSections/Contcat.module.scss";
 import { useForm, SubmitHandler } from "react-hook-form";
 import axios from "axios";
+import { useLanguageStore } from "@/stores/LanguageStore";
 
 interface IFormTelegram {
   name: string;
@@ -14,6 +15,7 @@ interface IFormTelegram {
 
 const Contcat = () => {
   const { register, handleSubmit, reset } = useForm<IFormTelegram>();
+  const { t } = useLanguageStore();
 
   const TOKEN = process.env.NEXT_PUBLIC_TG_TOKEN;
   const CHAT_ID = process.env.NEXT_PUBLIC_TG_CHAT_ID;
@@ -45,8 +47,8 @@ const Contcat = () => {
         <div className={scss.content}>
           <div className={scss.ct}>
             <div className={scss.text}>
-              <h1>Contact</h1>
-              <h1 className={scss.textMe}>Me!</h1>
+              <h1>{t("Contact.Title")}</h1>
+              <h1 className={scss.textMe}>{t("Contact.Title2")}</h1>
             </div>
 
             <form className={scss.form} onSubmit={handleSubmit(onSubmit)}>
