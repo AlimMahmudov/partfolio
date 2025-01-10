@@ -45,6 +45,7 @@ const Works = () => {
 
             <div className={scss.card2}>
               <div className={scss.image}>
+                ``
                 <Image className={scss.photo2} src={photo2} alt="" />
               </div>
               <div className={scss.text}>
