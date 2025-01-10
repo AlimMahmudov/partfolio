@@ -3,6 +3,7 @@ import scss from "../homeSections/AboutMe.module.scss";
 import aboutImg from "../../../assets/fd8894dd2a8a7fe03c77f98532c026ba.jpg";
 import Image from "next/image";
 import { Link as ScrollLink } from "react-scroll";
+import { useLanguageStore } from "@/stores/LanguageStore";
 
 const links = [
   {
@@ -12,6 +13,8 @@ const links = [
 ];
 
 const AboutMe = () => {
+  const { t } = useLanguageStore();
+
   return (
     <section id="about" className={scss.AboutMe}>
       <div className="container">
@@ -24,15 +27,7 @@ const AboutMe = () => {
               About <span>Me</span>
             </h1>
             <h2>Experienced Frontend Developer from Kyrgyzstan</h2>
-            <p>
-              I am a frontend developer with extensive experience and deep
-              knowledge in web development. I specialize in markup and
-              programming using HTML, CSS, JavaScript and TypeScript. I have
-              significant experience working with modern libraries and
-              frameworks such as React, Redux and Next.js. I can create
-              effective and responsive user interfaces, ensuring high quality
-              and performance of web applications.
-            </p>
+            <p>{t("Welcome.desc")}</p>
             <div className={scss.buttons}>
               {links.map((item, index) => (
                 <button id="work" key={index}>
