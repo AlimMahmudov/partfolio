@@ -109,12 +109,10 @@ const Works = () => {
               <div className={scss.text}>
                 <h1>Temir</h1>
                 <p>
-                  Jordan I&apos;s sneaker site offers information on models and
-                  collections, including detailed descriptions, photos and
-                  reviews. The site provides information on the brand I&apos; s
-                  history, news on upcoming releases and exclusive collections.
-                  Users can make purchases, subscribe to updates and participate
-                  in discussions.
+                  Сайт Ortodont Group является сайтом клиники стоматологии
+                  Ortodont Group. На сайте можно найти информацию о клинике,
+                  услугах, которые она предоставляет, а также записаться на
+                  прием.
                 </p>
                 <div className={scss.box}>
                   <h3>
