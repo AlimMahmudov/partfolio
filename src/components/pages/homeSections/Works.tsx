@@ -25,7 +25,7 @@ const Works = () => {
           <div className={scss.blog}>
             <div className={scss.card}>
               <div className={scss.text}>
-                <h1>Call of Duty</h1>
+                <h1>Барбершоп 💇🏻‍♂️</h1>
                 <p>
                   Сделано на Next.js, TypeScript: онлайн-запись в
                   разрабатываемую парикмахерскую — удобный способ выбрать
@@ -35,6 +35,12 @@ const Works = () => {
                   После записи вы получите подтверждение, а все детали вашего
                   визита будут учтены!
                 </p>
+                <div className={scss.nextjs}>
+                  <button>NextJS</button>
+                  <button>TypeScript</button>
+                  <button>SCSS</button>
+                  <button>RestAPI</button>
+                </div>
                 <div className={scss.box}>
                   <h3>
                     Code <FaGithub />
@@ -48,14 +54,13 @@ const Works = () => {
                 <Image className={scss.photo1} src={restaran} alt="" />
               </div>
             </div>
-            {/* ////// */}
 
-            <div className={scss.card2}>
+            <div className={scss.card}>
               <div className={scss.image}>
-                <Image className={scss.photo2} src={barber} alt="" />
+                <Image className={scss.photo1} src={barber} alt="" />
               </div>
               <div className={scss.text}>
-                <h1>Temir</h1>
+                <h1>Ресторан 🍽</h1>
                 <p>
                   Сайт на Next.js и TypeScript: Описание стиля, кухни,
                   фотографии блюд и отзывы клиентов помогают вызвать доверие и
@@ -63,6 +68,12 @@ const Works = () => {
                   мобильная версия и быстрый доступ к контактам делают сайт
                   удобным для пользователей любого устройства.
                 </p>
+                <div className={scss.nextjs}>
+                  <button>NextJS</button>
+                  <button>TypeScript</button>
+                  <button>SCSS</button>
+                  <button>RestAPI</button>
+                </div>
                 <div className={scss.box}>
                   <h3>
                     Code <FaGithub />
@@ -78,13 +89,19 @@ const Works = () => {
 
             <div className={scss.card}>
               <div className={scss.text}>
-                <h1>Call of Duty</h1>
+                <h1>Ортодонт 🦷</h1>
                 <p>
                   Сайт Ortodont Group является сайтом клиники стоматологии
                   Ortodont Group. На сайте можно найти информацию о клинике,
                   услугах, которые она предоставляет, а также записаться на
                   прием.
                 </p>
+                <div className={scss.nextjs}>
+                  <button>NextJS</button>
+                  <button>TypeScript</button>
+                  <button>SCSS</button>
+                  <button>RestAPI</button>
+                </div>
                 <div className={scss.box}>
                   <h3>
                     Code <FaGithub />
@@ -100,12 +117,12 @@ const Works = () => {
             </div>
             {/* ////// */}
 
-            <div className={scss.card2}>
+            <div className={scss.card}>
               <div className={scss.image}>
-                <Image className={scss.photo2} src={starwars} alt="" />
+                <Image className={scss.photo1} src={starwars} alt="" />
               </div>
               <div className={scss.text}>
-                <h1>Temir</h1>
+                <h1>Звездные Войны 🌍</h1>
                 <p>
                   Разработали сайт для интернет-магазина ноутбуков EduHub с
                   использованием TypeScript и Next.js. Сайт ориентирован на
@@ -115,6 +132,12 @@ const Works = () => {
                   SCSS. Интегрировали серверные компоненты Next.js для быстрой
                   загрузки страниц и SEO-оптимизации.
                 </p>
+                <div className={scss.nextjs}>
+                  <button>NextJS</button>
+                  <button>TypeScript</button>
+                  <button>SCSS</button>
+                  <button>RestAPI</button>
+                </div>
                 <div className={scss.box}>
                   <h3>
                     Code <FaGithub />
@@ -130,15 +153,21 @@ const Works = () => {
 
             <div className={scss.card}>
               <div className={scss.text}>
-                <h1>Call of Duty</h1>
+                <h1>IT Курс 🧑‍💻</h1>
                 <p>
-                  Call of Duty: Modern Warfare 3 (MW3) is a website dedicated to
-                  the popular video game. The site provides information about
-                  the game, including the plot, characters, gameplay, and modes.
-                  Users can find news and updates, trailers, screenshots, and
-                  other media. The section also contains frequently asked
-                  questions, guides, and a forum for discussing games.
+                  Сделано на Next.js, TypeScript : IT-курс — это обучение
+                  современным технологиям, программированию, веб-разработке,
+                  анализу данных и другим востребованным навыкам. Курсы включают
+                  практические задания, работу над реальными проектами и
+                  поддержку опытных наставников. Подходит для начала карьеры в
+                  IT или повышения квалификации.
                 </p>
+                <div className={scss.nextjs}>
+                  <button>NextJS</button>
+                  <button>TypeScript</button>
+                  <button>SCSS</button>
+                  <button>RestAPI</button>
+                </div>
                 <div className={scss.box}>
                   <h3>
                     Code <FaGithub />

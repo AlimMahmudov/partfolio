@@ -26,7 +26,6 @@
       .card {
         display: flex;
         gap: 20px;
-        // box-shadow: 0 0 5px #dddddd, 0 0 10px #dddddd, 0 0 15px #dddddd;
         border: solid 2px #dddddd;
         transition: 0.3s;
         background: #75757513;
@@ -38,11 +37,21 @@
           background: #00ce0013;
           transition: 0.3s;
           border: solid 2px #40be0e;
+
+          .image {
+            box-shadow: 0 0 5px #40be0e, 0 0 5px #40be0e, 0 0 5px #40be0e;
+            background: #00ce0013;
+            transition: 0.3s;
+            border: solid 2px #40be0e;
+          }
         }
         .text {
           display: flex;
           flex-direction: column;
+          text-align: center;
+          align-items: center;
           gap: 20px;
+          width: 60%;
           h1 {
             color: #40be0e;
             font-size: 30px;
@@ -51,6 +60,20 @@
             width: 100%;
             color: white;
             font-size: 20px;
+          }
+
+          .nextjs {
+            display: flex;
+            gap: 10px;
+            button {
+              padding: 10px 20px;
+              border-radius: 5px;
+              background: -webkit-linear-gradient(-70deg, #40be0e, #164d00);
+              color: #fff;
+              font-size: 14px;
+              font-weight: 900;
+              border: none;
+            }
           }
 
           .box {
@@ -66,79 +89,21 @@
         }
 
         .image {
-          .photo1 {
-            width: 600px;
-            height: 400px;
-            box-shadow: 0 0 2px #40be0e, 0 0 5px #40be0e, 0 0 10px #40be0e;
-            border-radius: 10px;
-          }
-          .photo2 {
-            width: 600px;
-            height: 400px;
-            box-shadow: 0 0 2px #40be0e, 0 0 5px #40be0e, 0 0 10px #40be0e;
-            border-radius: 10px;
-          }
-          .photo3 {
-            width: 600px;
-            height: 400px;
-            box-shadow: 0 0 2px #40be0e, 0 0 5px #40be0e, 0 0 10px #40be0e;
-            border-radius: 10px;
-          }
-        }
-      }
-
-      .card2 {
-        display: flex;
-        // background: #1c7fee;
-        gap: 20px;
-        box-shadow: 0 0 5px #40be0e, 0 0 10px #40be0e, 0 0 15px #40be0e;
-
-        padding: 40px;
-        border-radius: 20px;
-        .text {
           display: flex;
           flex-direction: column;
-          gap: 20px;
-          h1 {
-            color: #40be0e;
-            font-size: 30px;
-          }
-          p {
-            width: 100%;
-            color: white;
-            font-size: 20px;
-          }
+          align-items: center;
+          padding: 5px;
+          gap: 10px;
+          transition: 0.3s;
+          width: 500px;
+          height: 300px;
+          object-fit: cover;
+          overflow: hidden;
+          border-radius: 10px;
+          border: solid 2px #dddddd;
 
-          .box {
-            display: flex;
-            gap: 20px;
-            h3 {
-              display: flex;
-              gap: 10px;
-              color: white;
-              font-size: 20px;
-            }
-          }
-        }
-
-        .image {
           .photo1 {
-            width: 600px;
-            height: 400px;
-            box-shadow: 0 0 2px #40be0e, 0 0 5px #40be0e, 0 0 10px #40be0e;
-            border-radius: 10px;
-          }
-          .photo2 {
-            width: 600px;
-            height: 400px;
-            box-shadow: 0 0 2px #40be0e, 0 0 5px #40be0e, 0 0 10px #40be0e;
-            border-radius: 10px;
-          }
-          .photo3 {
-            width: 600px;
-            height: 400px;
-            box-shadow: 0 0 2px #40be0e, 0 0 5px #40be0e, 0 0 10px #40be0e;
-            border-radius: 10px;
+            width: 500px;
           }
         }
       }
