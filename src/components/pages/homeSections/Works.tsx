@@ -55,7 +55,7 @@ const Works = () => {
               </div>
             </div>
 
-            <div className={scss.card}>
+            <div className={scss.card2}>
               <div className={scss.image}>
                 <Image className={scss.photo1} src={barber} alt="" />
               </div>
@@ -117,7 +117,7 @@ const Works = () => {
             </div>
             {/* ////// */}
 
-            <div className={scss.card}>
+            <div className={scss.card2}>
               <div className={scss.image}>
                 <Image className={scss.photo1} src={starwars} alt="" />
               </div>
