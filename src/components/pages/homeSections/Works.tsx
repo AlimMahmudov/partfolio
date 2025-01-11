@@ -80,12 +80,10 @@ const Works = () => {
               <div className={scss.text}>
                 <h1>Call of Duty</h1>
                 <p>
-                  Call of Duty: Modern Warfare 3 (MW3) is a website dedicated to
-                  the popular video game. The site provides information about
-                  the game, including the plot, characters, gameplay, and modes.
-                  Users can find news and updates, trailers, screenshots, and
-                  other media. The section also contains frequently asked
-                  questions, guides, and a forum for discussing games.
+                  Сайт Ortodont Group является сайтом клиники стоматологии
+                  Ortodont Group. На сайте можно найти информацию о клинике,
+                  услугах, которые она предоставляет, а также записаться на
+                  прием.
                 </p>
                 <div className={scss.box}>
                   <h3>
@@ -109,10 +107,13 @@ const Works = () => {
               <div className={scss.text}>
                 <h1>Temir</h1>
                 <p>
-                  Сайт Ortodont Group является сайтом клиники стоматологии
-                  Ortodont Group. На сайте можно найти информацию о клинике,
-                  услугах, которые она предоставляет, а также записаться на
-                  прием.
+                  Разработали сайт для интернет-магазина ноутбуков EduHub с
+                  использованием TypeScript и Next.js. Сайт ориентирован на
+                  удобство пользователя и рост продаж. Реализовали функционал
+                  корзины. Добавлены фильтры и сортировка для удобного выбора
+                  товаров, а также адаптивный дизайн с использованием модулей
+                  SCSS. Интегрировали серверные компоненты Next.js для быстрой
+                  загрузки страниц и SEO-оптимизации.
                 </p>
                 <div className={scss.box}>
                   <h3>
