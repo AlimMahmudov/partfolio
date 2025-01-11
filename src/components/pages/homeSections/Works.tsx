@@ -27,12 +27,13 @@ const Works = () => {
               <div className={scss.text}>
                 <h1>Call of Duty</h1>
                 <p>
-                  Call of Duty: Modern Warfare 3 (MW3) is a website dedicated to
-                  the popular video game. The site provides information about
-                  the game, including the plot, characters, gameplay, and modes.
-                  Users can find news and updates, trailers, screenshots, and
-                  other media. The section also contains frequently asked
-                  questions, guides, and a forum for discussing games.
+                  Сделано на Next.js, TypeScript: онлайн-запись в
+                  разрабатываемую парикмахерскую — удобный способ выбрать
+                  подходящую дату, время и парикмахера, не выходя из дома.
+                  Сервис позволяет быстро ознакомиться с услугами, ценами и
+                  свободными окнами, а также указать свои контактные данные.
+                  После записи вы получите подтверждение, а все детали вашего
+                  визита будут учтены!
                 </p>
                 <div className={scss.box}>
                   <h3>
@@ -56,12 +57,11 @@ const Works = () => {
               <div className={scss.text}>
                 <h1>Temir</h1>
                 <p>
-                  Jordan I&apos;s sneaker site offers information on models and
-                  collections, including detailed descriptions, photos and
-                  reviews. The site provides information on the brand I&apos; s
-                  history, news on upcoming releases and exclusive collections.
-                  Users can make purchases, subscribe to updates and participate
-                  in discussions.
+                  Сайт на Next.js и TypeScript: Описание стиля, кухни,
+                  фотографии блюд и отзывы клиентов помогают вызвать доверие и
+                  заинтересовать гостей. Интуитивно понятная навигация,
+                  мобильная версия и быстрый доступ к контактам делают сайт
+                  удобным для пользователей любого устройства.
                 </p>
                 <div className={scss.box}>
                   <h3>
@@ -80,12 +80,12 @@ const Works = () => {
               <div className={scss.text}>
                 <h1>Call of Duty</h1>
                 <p>
-                  Call of Duty: Modern Warfare 3 (MW3) is a website dedicated to
+                  {/* Call of Duty: Modern Warfare 3 (MW3) is a website dedicated to
                   the popular video game. The site provides information about
                   the game, including the plot, characters, gameplay, and modes.
                   Users can find news and updates, trailers, screenshots, and
                   other media. The section also contains frequently asked
-                  questions, guides, and a forum for discussing games.
+                  questions, guides, and a forum for discussing games. */}
                 </p>
                 <div className={scss.box}>
                   <h3>
