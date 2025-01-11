@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Welcome from "./homeSections/Welcome";
-// import AboutMe from "./homeSections/AboutMe";
+import AboutMe from "./homeSections/AboutMe";
 import Concat from "./homeSections/Contcat";
 import Experience from "./homeSections/Works";
 import Work from "./homeSections/Skill";
@@ -20,7 +20,7 @@ const HomePage = () => {
         snowflakeCount={20}
       />
       <Welcome />
-      {/* <AboutMe /> */}
+      <AboutMe />
       <Experience />
       <Work />
       <Concat />
