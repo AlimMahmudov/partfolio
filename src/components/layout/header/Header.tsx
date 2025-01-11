@@ -4,6 +4,7 @@ import scss from "../header/Header.module.scss";
 import { Link as ScrollLink } from "react-scroll";
 import BurgerMenu from "./BurgerMenu";
 import { useEffect, useState } from "react";
+import { useLanguageStore } from "@/stores/LanguageStore";
 
 const links = [
   {
@@ -32,6 +33,12 @@ const links = [
 const Header = () => {
   const [isMobile, setIsMobile] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
+  const { language, setLanguage } = useLanguageStore();
+
+  const handleChangeLanguage = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    const selectedLanguage = e.target.value as "ru" | "en";
+    setLanguage(selectedLanguage);
+  };
 
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth < 1000);
@@ -86,6 +93,10 @@ const Header = () => {
                 </ul>
               </div>
               <div className={scss.buutons}>
+                <select onChange={handleChangeLanguage} value={language}>
+                  <option value="ru">RU</option>
+                  <option value="ky">EN</option>
+                </select>
                 <button className={scss.btn}>resume</button>
               </div>
             </>
