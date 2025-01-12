@@ -46,7 +46,7 @@
 
   .buutons {
     display: flex;
-    gap: 5px;
+    gap: 10px;
 
     button {
       padding: 10px 30px;
@@ -56,6 +56,7 @@
       cursor: pointer;
       font-size: 16px;
       color: white;
+      transition: 0.2s;
     }
     button:hover {
       box-shadow: 0 0 10px #40be0e, 0 0 20px #40be0e;
@@ -68,7 +69,7 @@
     }
 
     select {
-      padding: 10px 30px;
+      padding: 10px 10px;
       background: #00000000;
       border: solid #40be0e 3px;
       border-radius: 50px;
