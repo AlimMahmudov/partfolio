@@ -77,6 +77,12 @@
       font-size: 16px;
       color: white;
       outline: none;
+      transition: 0.2s;
+
+      &:hover {
+        box-shadow: 0 0 10px #40be0e, 0 0 20px #40be0e;
+        transition: 0.2s;
+      }
     }
   }
 
