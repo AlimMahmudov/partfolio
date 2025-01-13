@@ -47,8 +47,8 @@ const Contcat = () => {
         <div className={scss.content}>
           <div className={scss.ct}>
             <div className={scss.text}>
-              <h1>{t("Contact.Title")}</h1>
-              <h1 className={scss.textMe}>{t("Contact.Title2")}</h1>
+              <h1>Contact</h1>
+              <h1 className={scss.textMe}>Me</h1>
             </div>
 
             <form className={scss.form} onSubmit={handleSubmit(onSubmit)}>
