@@ -5,8 +5,10 @@ import { FaTelegramPlane } from "react-icons/fa";
 import scss from "../footer/Footer.module.scss";
 import { Link as ScrollLink } from "react-scroll";
 import { AiFillInstagram } from "react-icons/ai";
+// import { useLanguageStore } from "@/stores/LanguageStore";
 
 const Footer = () => {
+  // const { t } = useLanguageStore();
   return (
     <footer className={scss.footer}>
       <div className="container">
