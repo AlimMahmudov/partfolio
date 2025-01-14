@@ -33,7 +33,7 @@ const Skill = () => {
               </h1>
               <h2>HTML</h2>
             </div>
-
+            {/* 
             <div className={scss.stack2}>
               <h1>
                 <FaCss3Alt />
@@ -123,7 +123,7 @@ const Skill = () => {
                 <RiTailwindCssFill />
               </h1>
               <h2>Tailwind</h2>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
