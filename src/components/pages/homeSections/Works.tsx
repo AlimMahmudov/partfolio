@@ -44,10 +44,14 @@ const Works = () => {
                 </div>
                 <div className={scss.box}>
                   <h3>
-                    Code <FaGithub />
+                    <Link href="https://github.com/AlimMahmudov/ortodont">
+                      Code <FaGithub />
+                    </Link>
                   </h3>
                   <h3>
-                    Live Demo <BsBoxArrowUpRight />
+                    <Link href="https://ortodont.vercel.app/">
+                      Live Demo <BsBoxArrowUpRight />
+                    </Link>
                   </h3>
                 </div>
               </div>
