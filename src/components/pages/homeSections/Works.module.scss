@@ -73,6 +73,10 @@
               font-size: 14px;
               font-weight: 900;
               border: none;
+
+              &:hover {
+                background: -webkit-linear-gradient(-70deg, #52f013, #2a9400);
+              }
             }
           }
 

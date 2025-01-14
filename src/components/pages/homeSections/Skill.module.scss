@@ -35,22 +35,31 @@
         align-items: center;
         justify-content: center;
         width: 100px;
-        height: 100px;
+        height: 120px;
         margin-top: 10px;
         display: flex;
         flex-direction: column;
         object-fit: cover;
         overflow: hidden;
         border: solid 3px #40be0e;
+        transition: 0.4s;
+
+        &:hover {
+        }
 
         h1 {
-          font-size: 20px;
+          font-size: 50px;
           border: solid 3px #40be0e;
           padding: 10px;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
         }
 
         h2 {
           font-size: 30px;
+          margin-top: 50px;
         }
       }
       .stack1:hover {
