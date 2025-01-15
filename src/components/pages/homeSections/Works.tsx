@@ -27,7 +27,7 @@ const data = [
     description:
       "Описание стиля, кухни, фотографии блюд и отзывы клиентов помогают вызвать доверие и заинтересовать гостей. Интуитивно понятная навигация, мобильная версия и быстрый доступ к контактам делают сайт удобным для пользователей любого устройства.",
     demo: "https://ortodont.vercel.app/",
-    gitHub: "https://github.com/AlimMahmudov/ortodont",
+    gitHub: "https://github.com/AlimMahmudov/motion-restaurant",
   },
   {
     photo: ortodont,
