@@ -4,12 +4,12 @@ import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
 import { BsBoxArrowUpRight } from "react-icons/bs";
 // import barber from "@/assets/images/Снимок экрана от 2025-01-11 21-33-55.png";
-import restaran from "@/assets/images/Снимок экрана от 2025-01-11 21-35-29.png";
+import restaran from "@/assets/newImage/restoranphoto.png";
 import barber from "@/assets/newImage/barbershopphoto.png";
 
-import course from "@/assets/images/Снимок экрана от 2025-01-11 21-36-35.png";
-import ortodont from "@/assets/images/Снимок экрана от 2025-01-11 21-37-05.png";
-import starwars from "@/assets/images/Снимок экрана от 2025-01-11 21-37-41.png";
+import course from "@/assets/newImage/itcoursephoto.png";
+import ortodont from "@/assets/newImage/ortodontphoto.png";
+import starwars from "@/assets/newImage/starwarsphoto.png";
 import Link from "next/link";
 
 const data = [
