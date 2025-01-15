@@ -43,7 +43,7 @@ const data = [
     description:
       "Разработали сайт для интернет-магазина ноутбуков EduHub с использованием TypeScript и Next.js. Сайт ориентирован на удобство пользователя и рост продаж. Реализовали функционал корзины. Добавлены фильтры и сортировка для удобного выбора товаров, а также адаптивный дизайн с использованием модулей SCSS. Интегрировали серверные компоненты Next.js для быстрой загрузки страниц и SEO-оптимизации.",
     demo: "https://ortodont.vercel.app/",
-    gitHub: "https://github.com/AlimMahmudov/ortodont",
+    gitHub: "https://github.com/AlimMahmudov/starwars-v1",
   },
   {
     photo: course,
