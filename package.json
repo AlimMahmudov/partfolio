@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tsparticles/slim": "^3.7.1",
     "aos": "^2.3.4",
     "axios": "^1.7.2",
     "next": "14.2.5",
@@ -19,7 +20,9 @@
     "react-simple-typewriter": "^5.0.1",
     "react-snowfall": "^2.1.0",
     "react-toastify": "^10.0.5",
+    "react-tsparticles": "^2.12.2",
     "sass": "^1.77.8",
+    "tsparticles-engine": "^2.12.0",
     "zustand": "^5.0.3"
   },
   "devDependencies": {
