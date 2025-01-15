@@ -66,7 +66,12 @@ const Works = () => {
           </div>
           <div className={scss.blog}>
             {data.map((el, index) => (
-              <div key={index} className={scss.card}>
+              <div
+                className={`${scss.card} ${
+                  index % 2 !== 0 ? scss.row__reverse : ""
+                }`}
+                key={index + 1}
+              >
                 <div className={scss.text}>
                   <h1>{el.title}</h1>
                   <p>{el.description}</p>

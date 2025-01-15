@@ -22,7 +22,9 @@
       display: flex;
       flex-direction: column;
       gap: 50px;
-
+      .row__reverse {
+        flex-direction: row-reverse;
+      }
       .card {
         display: flex;
         gap: 20px;
@@ -31,6 +33,10 @@
         background: #75757513;
         padding: 40px;
         border-radius: 20px;
+
+        ::-webkit-scrollbar {
+          width: 0px;
+        }
 
         &:hover {
           box-shadow: 0 0 2px #40be0e, 0 0 5px #40be0e, 0 0 10px #40be0e;
@@ -102,98 +108,22 @@
           width: 500px;
           height: 300px;
           object-fit: cover;
-          overflow: hidden;
-          border-radius: 10px;
-          border: solid 2px #dddddd;
-
-          .photo1 {
-            width: 500px;
-          }
-        }
-      }
-
-      .card2 {
-        display: flex;
-        gap: 20px;
-        border: solid 2px #dddddd;
-        transition: 0.3s;
-        background: #75757513;
-        padding: 40px;
-        border-radius: 20px;
-
-        &:hover {
-          box-shadow: 0 0 2px #40be0e, 0 0 5px #40be0e, 0 0 10px #40be0e;
-          background: #00ce0013;
-          transition: 0.3s;
-          border: solid 2px #40be0e;
-
-          .image {
-            box-shadow: 0 0 5px #40be0e, 0 0 5px #40be0e, 0 0 5px #40be0e;
-            background: #00ce0013;
-            transition: 0.3s;
-            border: solid 2px #40be0e;
-          }
-        }
-        .text {
-          display: flex;
-          flex-direction: column;
-          text-align: center;
-          align-items: center;
-          gap: 20px;
-          width: 60%;
-          h1 {
-            color: #40be0e;
-            font-size: 30px;
-          }
-          p {
-            width: 100%;
-            color: white;
-            font-size: 20px;
-          }
-
-          .nextjs {
-            display: flex;
-            gap: 10px;
-            button {
-              padding: 10px 20px;
-              border-radius: 5px;
-              background: -webkit-linear-gradient(-70deg, #40be0e, #164d00);
-              color: #fff;
-              font-size: 14px;
-              font-weight: 900;
-              border: none;
-            }
-          }
-
-          .box {
-            display: flex;
-            gap: 20px;
-            h3 {
-              display: flex;
-              gap: 10px;
-              color: white;
-              font-size: 20px;
-            }
-          }
-        }
-
-        .image {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          padding: 5px;
-          gap: 10px;
-          transition: 0.3s;
-          width: 500px;
-          height: 300px;
-          object-fit: cover;
           overflow-y: scroll;
           overflow-x: hidden;
           border-radius: 10px;
           border: solid 2px #dddddd;
 
           .photo1 {
-            width: 500px;
+            width: 100%;
+            height: auto;
+
+            transform: translateY(0%);
+            transition: transform 1.5s ease-in-out 0s;
+
+            &:hover {
+              transform: translateY(-50%);
+              transition: transform 1.5s ease-in-out 0s;
+            }
           }
         }
       }
