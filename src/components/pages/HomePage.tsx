@@ -15,7 +15,7 @@ const HomePage = () => {
       <AboutMe />
       <Works />
       {/* <Work /> */}
-      {/* <Concat /> */}
+      <Concat />
     </>
   );
 };
