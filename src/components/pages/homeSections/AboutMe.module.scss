@@ -14,24 +14,10 @@
       img {
         width: 500px;
         border-radius: 20px;
-        // box-shadow: 0 0 20px #40be0e, 0 0 70px #40be0e;
-        // transform: translateZ(-1px);
         animation: rgb 2s linear infinite;
         box-shadow: 0 0 20px #40be0e, 0 0 50px #40be0e;
       }
     }
-
-    // @keyframes rgb {
-    //   0% {
-    //     box-shadow: 0 0 10px #40be0e, 0 0 30px #40be0e;
-    //   }
-    //   50% {
-    //     box-shadow: 0 0 20px #40be0e, 0 0 50px #40be0e;
-    //   }
-    //   100% {
-    //     box-shadow: 0 0 10px #40be0e, 0 0 30px #40be0e;
-    //   }
-    // }
 
     .text {
       display: flex;
@@ -172,7 +158,7 @@
 
 @media (max-width: 550px) {
   .AboutMe {
-    height: 100vh;
+    height: 80vh;
 
     .content {
       display: flex;
@@ -221,7 +207,7 @@
 
 @media (max-width: 400px) {
   .AboutMe {
-    height: 90vh;
+    height: 80vh;
 
     .content {
       display: flex;

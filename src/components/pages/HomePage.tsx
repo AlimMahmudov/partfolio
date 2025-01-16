@@ -12,7 +12,7 @@ const HomePage = () => {
     <>
       {/* <Spider id="particles" /> */}
       {/* <Welcome /> */}
-      {/* <AboutMe /> */}
+      <AboutMe />
       <Works />
       {/* <Work /> */}
       {/* <Concat /> */}
