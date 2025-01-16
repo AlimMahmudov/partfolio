@@ -139,16 +139,14 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+
       gap: 50px;
       .firstText {
         text-align: center;
         h1 {
-          color: rgb(207, 236, 250);
-          text-shadow: 0 0 10px #40be0e, 0 0 20px #40be0e, 0 0 30px #40be0e;
           font-size: 40px;
         }
         h2 {
-          color: rgb(207, 236, 250);
           font-size: 30px;
         }
       }
@@ -164,29 +162,9 @@
           flex-direction: column;
           align-items: center;
           gap: 20px;
-          border: solid 2px #dddddd;
           transition: 0.3s;
-          background: #75757513;
           padding: 40px;
-          border-radius: 20px;
 
-          ::-webkit-scrollbar {
-            width: 0px;
-          }
-
-          &:hover {
-            box-shadow: 0 0 2px #40be0e, 0 0 5px #40be0e, 0 0 10px #40be0e;
-            background: #00ce0013;
-            transition: 0.3s;
-            border: solid 2px #40be0e;
-
-            .image {
-              box-shadow: 0 0 5px #40be0e, 0 0 5px #40be0e, 0 0 5px #40be0e;
-              background: #00ce0013;
-              transition: 0.3s;
-              border: solid 2px #40be0e;
-            }
-          }
           .text {
             display: flex;
             flex-direction: column;
@@ -210,15 +188,8 @@
               button {
                 padding: 10px 20px;
                 border-radius: 5px;
-                background: -webkit-linear-gradient(-70deg, #40be0e, #164d00);
-                color: #fff;
                 font-size: 14px;
                 font-weight: 900;
-                border: none;
-
-                &:hover {
-                  background: -webkit-linear-gradient(-70deg, #52f013, #2a9400);
-                }
               }
             }
 
@@ -240,14 +211,8 @@
             align-items: center;
             padding: 5px;
             gap: 10px;
-            transition: 0.3s;
             width: 500px;
             height: 300px;
-            object-fit: cover;
-            overflow-y: scroll;
-            overflow-x: hidden;
-            border-radius: 10px;
-            border: solid 2px #dddddd;
 
             .photo1 {
               width: 100%;
@@ -255,11 +220,6 @@
 
               transform: translateY(0%);
               transition: transform 1.5s ease-in-out 0s;
-
-              &:hover {
-                transform: translateY(-50%);
-                transition: transform 1.5s ease-in-out 0s;
-              }
             }
           }
         }
