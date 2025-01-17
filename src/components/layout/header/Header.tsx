@@ -21,10 +21,6 @@ const links = [
     link: "work",
   },
   {
-    name: "Skill",
-    link: "skill",
-  },
-  {
     name: "Contacts",
     link: "contcat",
   },
