@@ -11,7 +11,7 @@ const HomePage = () => {
   return (
     <>
       {/* <Spider id="particles" /> */}
-      {/* <Welcome /> */}
+      <Welcome />
       <AboutMe />
       <Works />
       {/* <Work /> */}
