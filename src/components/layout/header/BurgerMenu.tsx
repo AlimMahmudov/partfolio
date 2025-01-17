@@ -21,22 +21,20 @@ const BurgerMenu: FC<BurgerMenuProps> = ({ links, isOpen }) => {
     >
       <div className={scss.content}>
         <div className={scss.nav}>
-          <ul>
-            {links.map((item, index) => (
-              <li key={index}>
-                <ScrollLink
-                  activeClass="active"
-                  to={item.link}
-                  spy={true}
-                  smooth={true}
-                  offset={0}
-                  duration={700}
-                >
-                  {item.name}
-                </ScrollLink>
-              </li>
-            ))}
-          </ul>
+          {links.map((item, index) => (
+            <h2 key={index}>
+              <ScrollLink
+                activeClass="active"
+                to={item.link}
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={700}
+              >
+                {item.name}
+              </ScrollLink>
+            </h2>
+          ))}
         </div>
       </div>
     </div>
