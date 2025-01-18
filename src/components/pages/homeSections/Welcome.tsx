@@ -49,20 +49,29 @@ const Welcome = () => {
                 {t("Welcome.desc")}
               </p>
               <div className={scss.icons}>
-                <a className={scss.telegram} href="https://t.me/MahmudovAlim">
-                  {" "}
+                <a
+                  data-aos="zoom-in"
+                  data-aos-delay="100"
+                  className={scss.telegram}
+                  href="https://t.me/MahmudovAlim"
+                >
                   <FaTelegramPlane />
                 </a>
                 <a
+                  data-aos="zoom-in"
+                  data-aos-delay="200"
                   className={scss.telegram}
                   href="https://www.instagram.com/alimdev_05"
                 >
-                  {" "}
                   <AiFillInstagram />
                 </a>
 
-                <a className={scss.telegram} href="https://github.com/">
-                  {" "}
+                <a
+                  data-aos="zoom-in"
+                  data-aos-delay="300"
+                  className={scss.telegram}
+                  href="https://github.com/"
+                >
                   <FaGithub />
                 </a>
               </div>
