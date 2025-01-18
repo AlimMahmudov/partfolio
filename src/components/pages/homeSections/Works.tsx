@@ -60,10 +60,7 @@ const Works = () => {
     <section id="work" className={scss.Works}>
       <div className="container">
         <div className={scss.content}>
-          <div
-            // data-aos="fade-left"
-            className={scss.firstText}
-          >
+          <div data-aos="fade-left" className={scss.firstText}>
             <h1>PROJECTS</h1>
             <h2>Each project is a unique piece of development</h2>
           </div>
