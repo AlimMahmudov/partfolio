@@ -60,13 +60,17 @@ const Works = () => {
     <section id="work" className={scss.Works}>
       <div className="container">
         <div className={scss.content}>
-          <div className={scss.firstText}>
+          <div
+            // data-aos="fade-left"
+            className={scss.firstText}
+          >
             <h1>PROJECTS</h1>
             <h2>Each project is a unique piece of development</h2>
           </div>
           <div className={scss.blog}>
             {data.map((el, index) => (
               <div
+                // data-aos="fade-right"
                 className={`${scss.card} ${
                   index % 2 !== 0 ? scss.row__reverse : ""
                 }`}

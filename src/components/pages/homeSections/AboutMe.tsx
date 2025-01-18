@@ -19,10 +19,10 @@ const AboutMe = () => {
     <section id="about" className={scss.AboutMe}>
       <div className="container">
         <div className={scss.content}>
-          <div className={scss.image}>
+          <div data-aos="fade-up" className={scss.image}>
             <Image src={aboutImg} alt="" />
           </div>
-          <div className={scss.text}>
+          <div data-aos="fade-left" className={scss.text}>
             <h1>
               About <span>Me</span>
             </h1>
