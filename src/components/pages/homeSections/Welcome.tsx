@@ -30,9 +30,11 @@ const Welcome = () => {
       <section id="home" className={scss.Welcome}>
         <div className="container">
           <div className={scss.content}>
-            <div data-aos="fade-right" className={scss.text}>
-              <h1>{t("Welcome.title")}</h1>
-              <h2>
+            <div className={scss.text}>
+              <h1 data-aos="fade-right" data-aos-delay="100">
+                {t("Welcome.title")}
+              </h1>
+              <h2 data-aos="fade-right" data-aos-delay="200">
                 <Typewriter
                   words={["FRONT-END DEVELOPER"]}
                   loop={true}
@@ -43,7 +45,9 @@ const Welcome = () => {
                   delaySpeed={1500}
                 />
               </h2>
-              <p>{t("Welcome.desc")}</p>
+              <p data-aos="fade-right" data-aos-delay="300">
+                {t("Welcome.desc")}
+              </p>
               <div className={scss.icons}>
                 <a className={scss.telegram} href="https://t.me/MahmudovAlim">
                   {" "}
