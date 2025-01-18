@@ -30,7 +30,7 @@ const Welcome = () => {
       <section id="home" className={scss.Welcome}>
         <div className="container">
           <div className={scss.content}>
-            <div className={scss.text}>
+            <div data-aos="fade-right" className={scss.text}>
               <h1>{t("Welcome.title")}</h1>
               <h2>
                 <Typewriter
@@ -63,7 +63,7 @@ const Welcome = () => {
                 </a>
               </div>
             </div>
-            <div className={scss.image}>
+            <div data-aos="fade-left" className={scss.image}>
               <Image src={user1} alt="" />
             </div>
           </div>
