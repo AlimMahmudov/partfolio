@@ -44,7 +44,7 @@ const Contcat = () => {
   return (
     <section id="contcat" className={scss.concat}>
       <div className="container">
-        <div className={scss.content}>
+        <div data-aos="fade-right" className={scss.content}>
           <div className={scss.ct}>
             <div className={scss.text}>
               <h1>Contact</h1>
@@ -54,21 +54,29 @@ const Contcat = () => {
             <form className={scss.form} onSubmit={handleSubmit(onSubmit)}>
               <div className={scss.maus}>
                 <input
+                  data-aos="fade-right"
+                  data-aos-delay="100"
                   type="text"
                   {...register("name", { required: true })}
                   placeholder="Your Name"
                 />
                 <input
+                  data-aos="fade-right"
+                  data-aos-delay="200"
                   type="number"
                   {...register("number", { required: true })}
                   placeholder="Mobile Number"
                 />
                 <input
+                  data-aos="fade-right"
+                  data-aos-delay="300"
                   type="email"
                   {...register("email", { required: true })}
                   placeholder="Your email"
                 />
                 <input
+                  data-aos="fade-right"
+                  data-aos-delay="400"
                   type="text"
                   {...register("inquiry", { required: true })}
                   placeholder="Subject of inquiry"
@@ -76,6 +84,8 @@ const Contcat = () => {
               </div>
               <div className={scss.big}>
                 <textarea
+                  data-aos-delay="500"
+                  data-aos="fade-right"
                   {...register("message", { required: true })}
                   placeholder="message"
                 ></textarea>
