@@ -68,46 +68,102 @@ const Welcome = () => {
             </div>
           </div>
           <div className={scss.images}>
-            <div className={scss.stack1}>
+            <div
+              data-aos="fade-up"
+              data-aos-delay="100"
+              className={scss.stack1}
+            >
               <FaHtml5 />
             </div>
-            <div className={scss.stack2}>
+            <div
+              data-aos="fade-up"
+              data-aos-delay="200"
+              className={scss.stack2}
+            >
               <FaCss3Alt />
             </div>
-            <div className={scss.stack3}>
+            <div
+              data-aos="fade-up"
+              data-aos-delay="300"
+              className={scss.stack3}
+            >
               <IoLogoJavascript />
             </div>
-            <div className={scss.stack4}>
+            <div
+              data-aos="fade-up"
+              data-aos-delay="400"
+              className={scss.stack4}
+            >
               <SiTypescript />
             </div>
-            <div className={scss.stack5}>
+            <div
+              data-aos="fade-up"
+              data-aos-delay="500"
+              className={scss.stack5}
+            >
               <SiSass />
             </div>
-            <div className={scss.stack6}>
+            <div
+              data-aos="fade-up"
+              data-aos-delay="600"
+              className={scss.stack6}
+            >
               <FaReact />
             </div>
-            <div className={scss.stack7}>
+            <div
+              data-aos="fade-up"
+              data-aos-delay="700"
+              className={scss.stack7}
+            >
               <SiRedux />
             </div>
-            <div className={scss.stack8}>
+            <div
+              data-aos="fade-up"
+              data-aos-delay="800"
+              className={scss.stack8}
+            >
               <SiVite />
             </div>
-            <div className={scss.stack9}>
+            <div
+              data-aos="fade-up"
+              data-aos-delay="900"
+              className={scss.stack9}
+            >
               <RiNextjsFill />
             </div>
-            <div className={scss.stack10}>
+            <div
+              data-aos="fade-up"
+              data-aos-delay="1000"
+              className={scss.stack10}
+            >
               <SiVisualstudiocode />
             </div>
-            <div className={scss.stack11}>
+            <div
+              data-aos="fade-up"
+              data-aos-delay="1100"
+              className={scss.stack11}
+            >
               <FaFigma />
             </div>
-            <div className={scss.stack12}>
+            <div
+              data-aos="fade-up"
+              data-aos-delay="1200"
+              className={scss.stack12}
+            >
               <FaGithub />
             </div>
-            <div className={scss.stack13}>
+            <div
+              data-aos="fade-up"
+              data-aos-delay="1300"
+              className={scss.stack13}
+            >
               <FaGitAlt />
             </div>
-            <div className={scss.stack14}>
+            <div
+              data-aos="fade-up"
+              data-aos-delay="1400"
+              className={scss.stack14}
+            >
               <RiTailwindCssFill />
             </div>
           </div>
