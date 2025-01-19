@@ -16,5 +16,9 @@
     "inquiry": "Тема запроса",
     "message": "Сообщение",
     "button": "ОТПРАВИТЬ"
+  },
+  "Footer": {
+    "Created": "Создано на",
+    "nextTS": "NextTS"
   }
 }

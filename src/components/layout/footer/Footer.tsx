@@ -5,11 +5,11 @@ import { FaTelegramPlane } from "react-icons/fa";
 import scss from "../footer/Footer.module.scss";
 import { Link as ScrollLink } from "react-scroll";
 import { AiFillInstagram } from "react-icons/ai";
-// import { useLanguageStore } from "@/stores/LanguageStore";
+import { useLanguageStore } from "@/stores/LanguageStore";
 import { FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
-  // const { t } = useLanguageStore();
+  const { t } = useLanguageStore();
   return (
     <footer className={scss.footer}>
       <div className="container">
@@ -28,8 +28,8 @@ const Footer = () => {
           </div>
 
           <div className={scss.text}>
-            <h2>Created on</h2>
-            <h2 className={scss.nextts}>NextTS</h2>
+            <h2>{t("Footer.Created")}</h2>
+            <h2 className={scss.nextts}>{t("Footer.nextTS")}</h2>
           </div>
 
           <div className={scss.icons}>

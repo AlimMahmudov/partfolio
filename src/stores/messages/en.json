@@ -16,5 +16,9 @@
     "inquiry": "Subject of inquiry",
     "message": "message",
     "button": "SEND"
+  },
+  "Footer": {
+    "Created": "Created on",
+    "nextTS": "NextTS"
   }
 }
