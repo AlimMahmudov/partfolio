@@ -28,9 +28,8 @@ const Footer = () => {
           </div>
 
           <div className={scss.text}>
-            <h1>
-              Created on <span>NextTS</span>
-            </h1>
+            <h2>Created on</h2>
+            <h2 className={scss.nextts}>NextTS</h2>
           </div>
 
           <div className={scss.icons}>
