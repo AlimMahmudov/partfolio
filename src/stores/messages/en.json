@@ -21,7 +21,8 @@
     "home": "Home",
     "about": "About Me",
     "works": "Projects",
-    "Contact": "Contact"
+    "contact": "Contact",
+    "resume": "RESUME"
   },
   "Footer": {
     "Created": "Created on",

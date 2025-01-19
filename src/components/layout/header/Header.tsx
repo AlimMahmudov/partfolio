@@ -94,7 +94,7 @@ const Header = () => {
                   <option value="ru">RU</option>
                   <option value="ky">EN</option>
                 </select>
-                <button className={scss.btn}>resume</button>
+                <button className={scss.btn}>{t("Header.resume")}</button>
               </div>
             </>
           )}
