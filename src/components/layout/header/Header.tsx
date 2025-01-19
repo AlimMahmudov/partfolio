@@ -6,30 +6,31 @@ import BurgerMenu from "./BurgerMenu";
 import { useEffect, useState } from "react";
 import { useLanguageStore } from "@/stores/LanguageStore";
 
-const links = [
-  {
-    name: "home",
-    link: "home",
-  },
-  {
-    name: "About",
-    link: "about",
-  },
-
-  {
-    name: "Work",
-    link: "work",
-  },
-  {
-    name: "Contacts",
-    link: "contcat",
-  },
-];
-
 const Header = () => {
   const [isMobile, setIsMobile] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const { language, setLanguage } = useLanguageStore();
+  const { t } = useLanguageStore();
+
+  const links = [
+    {
+      name: t("Header.home"),
+      link: "home",
+    },
+    {
+      name: t("Header.about"),
+      link: "about",
+    },
+
+    {
+      name: t("Header.works"),
+      link: "work",
+    },
+    {
+      name: t("Header.contact"),
+      link: "contcat",
+    },
+  ];
 
   const handleChangeLanguage = (e: React.ChangeEvent<HTMLSelectElement>) => {
     const selectedLanguage = e.target.value as "ru" | "en";

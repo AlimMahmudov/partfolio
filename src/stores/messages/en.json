@@ -17,6 +17,12 @@
     "message": "message",
     "button": "SEND"
   },
+  "Header": {
+    "home": "Home",
+    "about": "About Me",
+    "works": "Projects",
+    "Contact": "Contact"
+  },
   "Footer": {
     "Created": "Created on",
     "nextTS": "NextTS"

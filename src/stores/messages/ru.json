@@ -17,6 +17,12 @@
     "message": "Сообщение",
     "button": "ОТПРАВИТЬ"
   },
+  "Header": {
+    "home": "Главная",
+    "about": "Обо мне",
+    "works": "Проекты",
+    "contact": "Контакты"
+  },
   "Footer": {
     "Created": "Создано на",
     "nextTS": "NextTS"
