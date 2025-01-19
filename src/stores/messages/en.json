@@ -27,5 +27,19 @@
   "Footer": {
     "Created": "Created on",
     "nextTS": "NextTS"
+  },
+  "Project": {
+    "title": "PROJECTS",
+    "desc": "Each project is a unique piece of development",
+    "barber": "Barbershop 💇🏻‍♂️",
+    "barber desc": "Online booking for a developing barbershop is a convenient way to choose a suitable date, time, and barber without leaving home. The service allows you to quickly explore services, prices, and available slots, as well as provide your contact details. After booking, you will receive confirmation, and all the details of your visit will be taken into account!",
+    "restoran": "Restaurant 🍽",
+    "restoran desc": "Descriptions of style, cuisine, photos of dishes, and customer reviews help build trust and attract guests. Intuitive navigation, a mobile version, and quick access to contact information make the site convenient for users on any device.",
+    "ortodont": "Orthodontist 🦷",
+    "ortodont desc": "The Ortodont Group website is the official site of the Ortodont Group dental clinic. On the website, you can find information about the clinic, the services it provides, and book an appointment.",
+    "starwars": "Star Wars 🪐",
+    "starwars desc": "The Star Wars game site offers complete immersion into the world of games based on the Star Wars universe. It includes: Information about characters: Detailed profiles of famous heroes and villains such as Luke Skywalker, Darth Vader, and others, with their biographies, abilities, and roles in the game.",
+    "cours": "IT Course 🧑‍💻",
+    "cours desc": "An IT course is about learning modern technologies, programming, web development, data analysis, and other in-demand skills. Courses include practical assignments, work on real projects, and support from experienced mentors. Ideal for starting a career in IT or improving qualifications."
   }
 }
