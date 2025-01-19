@@ -6,6 +6,7 @@ import scss from "../footer/Footer.module.scss";
 import { Link as ScrollLink } from "react-scroll";
 import { AiFillInstagram } from "react-icons/ai";
 // import { useLanguageStore } from "@/stores/LanguageStore";
+import { FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   // const { t } = useLanguageStore();
@@ -39,11 +40,17 @@ const Footer = () => {
             <a className={scss.telegram} href="https://github.com/AlimMahmudov">
               <FaGithub />
             </a>
+
             <a
               className={scss.telegram}
               href="https://www.instagram.com/alimdev_05"
             >
-              {" "}
+              <FaLinkedin />
+            </a>
+            <a
+              className={scss.telegram}
+              href="https://www.instagram.com/alimdev_05"
+            >
               <AiFillInstagram />
             </a>
           </div>
