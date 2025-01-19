@@ -16,6 +16,7 @@ interface IFormTelegram {
 const Contcat = () => {
   const { register, handleSubmit, reset } = useForm<IFormTelegram>();
   const { t } = useLanguageStore();
+  // <h2>{t("About.title")}</h2>;
 
   const TOKEN = process.env.NEXT_PUBLIC_TG_TOKEN;
   const CHAT_ID = process.env.NEXT_PUBLIC_TG_CHAT_ID;
@@ -47,8 +48,8 @@ const Contcat = () => {
         <div data-aos="fade-right" className={scss.content}>
           <div className={scss.ct}>
             <div className={scss.text}>
-              <h1>Contact</h1>
-              <h1 className={scss.textMe}>Me</h1>
+              <h1>{t("Contact.title")}</h1>
+              <h1 className={scss.textMe}>{t("Contact.title2")}</h1>
             </div>
 
             <form className={scss.form} onSubmit={handleSubmit(onSubmit)}>
@@ -58,28 +59,28 @@ const Contcat = () => {
                   data-aos-delay="100"
                   type="text"
                   {...register("name", { required: true })}
-                  placeholder="Your Name"
+                  placeholder={t("Contact.name")}
                 />
                 <input
                   data-aos="fade-right"
                   data-aos-delay="200"
                   type="number"
                   {...register("number", { required: true })}
-                  placeholder="Mobile Number"
+                  placeholder={t("Contact.number")}
                 />
                 <input
                   data-aos="fade-right"
                   data-aos-delay="300"
                   type="email"
                   {...register("email", { required: true })}
-                  placeholder="Your email"
+                  placeholder={t("Contact.email")}
                 />
                 <input
                   data-aos="fade-right"
                   data-aos-delay="400"
                   type="text"
                   {...register("inquiry", { required: true })}
-                  placeholder="Subject of inquiry"
+                  placeholder={t("Contact.inquiry")}
                 />
               </div>
               <div className={scss.big}>
@@ -87,12 +88,12 @@ const Contcat = () => {
                   data-aos-delay="500"
                   data-aos="fade-right"
                   {...register("message", { required: true })}
-                  placeholder="message"
+                  placeholder={t("Contact.message")}
                 ></textarea>
               </div>
               <div className={scss.buttonInp}>
                 <button className={scss.SuButton} type="submit">
-                  SEND
+                  {t("Contact.message")}
                 </button>
               </div>
             </form>
