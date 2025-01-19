@@ -6,6 +6,7 @@ import { AiFillInstagram } from "react-icons/ai";
 import { FaGithub } from "react-icons/fa";
 import { FaTelegramPlane } from "react-icons/fa";
 import { Typewriter } from "react-simple-typewriter";
+import { FaLinkedin } from "react-icons/fa";
 
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
@@ -51,7 +52,7 @@ const Welcome = () => {
               <div className={scss.icons}>
                 <a
                   data-aos="zoom-in"
-                  data-aos-delay="100"
+                  data-aos-delay="300"
                   className={scss.telegram}
                   href="https://t.me/MahmudovAlim"
                 >
@@ -59,7 +60,7 @@ const Welcome = () => {
                 </a>
                 <a
                   data-aos="zoom-in"
-                  data-aos-delay="200"
+                  data-aos-delay="300"
                   className={scss.telegram}
                   href="https://www.instagram.com/alimdev_05"
                 >
@@ -73,6 +74,14 @@ const Welcome = () => {
                   href="https://github.com/"
                 >
                   <FaGithub />
+                </a>
+                <a
+                  data-aos="zoom-in"
+                  data-aos-delay="300"
+                  className={scss.telegram}
+                  href="https://github.com/"
+                >
+                  <FaLinkedin />
                 </a>
               </div>
             </div>
