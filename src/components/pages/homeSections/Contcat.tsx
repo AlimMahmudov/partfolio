@@ -16,7 +16,6 @@ interface IFormTelegram {
 const Contcat = () => {
   const { register, handleSubmit, reset } = useForm<IFormTelegram>();
   const { t } = useLanguageStore();
-  // <h2>{t("About.title")}</h2>;
 
   const TOKEN = process.env.NEXT_PUBLIC_TG_TOKEN;
   const CHAT_ID = process.env.NEXT_PUBLIC_TG_CHAT_ID;
