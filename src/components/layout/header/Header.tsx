@@ -65,7 +65,7 @@ const Header = () => {
           {isMobile ? (
             <>
               <button className={scss.bur} onClick={() => setIsOpen(!isOpen)}>
-                Burger
+                menu
               </button>
               <BurgerMenu links={links} isOpen={isOpen} />
             </>
