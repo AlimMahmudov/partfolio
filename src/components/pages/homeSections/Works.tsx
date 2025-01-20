@@ -47,7 +47,7 @@ const Works = () => {
     },
     {
       photo: course,
-      title: t("Project.starwars"),
+      title: t("Project.cours"),
       description: t("Project.starwars desc"),
       demo: "https://ortodont.vercel.app/",
       gitHub: "https://github.com/AlimMahmudov/it-course",
