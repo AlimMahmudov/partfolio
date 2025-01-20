@@ -41,15 +41,12 @@ const Works = () => {
     {
       photo: starwars,
       title: t("Project.starwars"),
-      description: t("Project.ortodont desc"),
+      description: t("Project.starwars desc"),
       demo: "https://starwars-v1.vercel.app/",
       gitHub: "https://github.com/AlimMahmudov/starwars-v1",
     },
     {
       photo: course,
-      title: "IT Курс 🧑‍💻",
-      description:
-        "IT-курс — это обучение современным технологиям, программированию, веб-разработке, анализу данных и другим востребованным навыкам. Курсы включают практические задания, работу над реальными проектами и поддержку опытных наставников. Подходит для начала карьеры в IT или повышения квалификации.",
       demo: "https://ortodont.vercel.app/",
       gitHub: "https://github.com/AlimMahmudov/it-course",
     },
