@@ -33,9 +33,8 @@ const Works = () => {
     },
     {
       photo: ortodont,
-      title: "Ортодонт 🦷",
-      description:
-        "Сайт Ortodont Group является сайтом клиники стоматологии Ortodont Group. На сайте можно найти информацию о клинике, услугах, которые она предоставляет, а также записаться на прием.",
+      title: t("Project.ortodont"),
+      description: t("Project.ortodont desc"),
       demo: "https://ortodont.vercel.app/",
       gitHub: "https://github.com/AlimMahmudov/ortodont",
     },
