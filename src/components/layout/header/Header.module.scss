@@ -172,19 +172,20 @@
     }
 
     .bur {
-      padding: 10px 30px;
-      background: #00000000;
-      border: solid #40be0e 3px;
-      border-radius: 50px;
+      padding: 0;
+
+      border: none;
+      border-radius: none;
       cursor: pointer;
-      font-size: 16px;
+      font-size: 30px;
+      color: #40be0e;
     }
     button:hover {
-      box-shadow: 0 0 10px #40be0e, 0 0 20px #40be0e;
+      box-shadow: none;
       transition: 0.2s;
     }
     button:active {
-      background: #40be0e;
+      background: #40be0e00;
       color: #000000;
       transition: 0.1s;
     }

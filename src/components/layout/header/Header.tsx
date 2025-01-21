@@ -5,6 +5,7 @@ import { Link as ScrollLink } from "react-scroll";
 import BurgerMenu from "./BurgerMenu";
 import { useEffect, useState } from "react";
 import { useLanguageStore } from "@/stores/LanguageStore";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Header = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -65,7 +66,7 @@ const Header = () => {
           {isMobile ? (
             <>
               <button className={scss.bur} onClick={() => setIsOpen(!isOpen)}>
-                menu
+                <GiHamburgerMenu />
               </button>
               <BurgerMenu links={links} isOpen={isOpen} />
             </>
