@@ -11,9 +11,9 @@
   justify-content: center;
   border-radius: 10px;
 
-  background: rgba(55, 92, 41, 0.699);
+  background: rgba(0, 0, 0, 0.91);
   backdrop-filter: blur(10px);
-  box-shadow: 0 0 10px #17b902, 0 0 20px #17b902;
+  box-shadow: 0 0 10px #17b902, 0 0 10px #17b902;
   border: solid #17b902 4px;
 
   transition: 0.5s;
@@ -33,16 +33,32 @@
 .content {
   width: 100%;
   .nav {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
     h2 {
       text-decoration: none;
-      font-size: 25px;
+      font-size: 20px;
       color: white;
-      border-bottom: solid 2px #fff;
+      border-bottom: solid 1px #fff;
     }
   }
   .buttons {
     display: flex;
     flex-direction: column;
     align-items: start;
+
+    select {
+      border-bottom: solid 1px #fff;
+    }
+
+    .btn {
+      background: red;
+      border: none;
+      padding: 8px 20px;
+      color: #fff;
+      font-size: 18px;
+      border-radius: 5px;
+    }
   }
 }
