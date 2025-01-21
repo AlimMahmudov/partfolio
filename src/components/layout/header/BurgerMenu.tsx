@@ -1,6 +1,8 @@
+"use client";
 import React, { FC } from "react";
 import scss from "../header/BurgerMenu.module.scss";
 import { Link as ScrollLink } from "react-scroll";
+import { useLanguageStore } from "@/stores/LanguageStore";
 
 interface LinksType {
   name: string;
@@ -13,6 +15,12 @@ interface BurgerMenuProps {
 }
 
 const BurgerMenu: FC<BurgerMenuProps> = ({ links, isOpen }) => {
+  const { language, setLanguage } = useLanguageStore();
+  const { t } = useLanguageStore();
+  const handleChangeLanguage = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    const selectedLanguage = e.target.value as "ru" | "en";
+    setLanguage(selectedLanguage);
+  };
   return (
     <div
       className={
@@ -35,6 +43,13 @@ const BurgerMenu: FC<BurgerMenuProps> = ({ links, isOpen }) => {
               </ScrollLink>
             </h2>
           ))}
+        </div>
+        <div className={scss.buutons}>
+          <select onChange={handleChangeLanguage} value={language}>
+            <option value="ru">RU</option>
+            <option value="ky">EN</option>
+          </select>
+          <button className={scss.btn}>{t("Header.resume")}</button>
         </div>
       </div>
     </div>
