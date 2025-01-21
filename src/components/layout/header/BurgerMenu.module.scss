@@ -44,21 +44,28 @@
     }
   }
   .buttons {
+    padding: 10px 0px;
     display: flex;
-    flex-direction: column;
     align-items: start;
+    gap: 10px;
 
     select {
-      border-bottom: solid 1px #fff;
+      background: #17b902;
+      border: none;
+      padding: 8px 10px;
+      color: #fff;
+      font-size: 18px;
+      border-radius: 5px;
     }
 
     .btn {
-      background: red;
+      background: #17b902;
       border: none;
       padding: 8px 20px;
       color: #fff;
       font-size: 18px;
       border-radius: 5px;
+      width: 100%;
     }
   }
 }
