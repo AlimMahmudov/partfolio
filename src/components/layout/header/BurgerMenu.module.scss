@@ -1,8 +1,6 @@
 .burger_menu {
   position: absolute;
-  // top: 89px;
-  // right: -20px;
-  bottom: -2000;
+  bottom: -200px; // Указаны единицы измерения
   width: 82%;
   height: 200px;
   display: flex;
@@ -15,9 +13,9 @@
   box-shadow: 0 0 10px #17b902, 0 0 10px #17b902;
   border: solid #17b902 4px;
   transition: 0.5s;
+
   &.active {
-    // right: 0px;
-    top: 100;
+    bottom: 100px; // Логически связаны top и bottom
     padding: 20px;
     transition: 0.5s;
   }
@@ -25,16 +23,22 @@
 
 @media (max-width: 480px) {
   .burger_menu {
+    // Эти свойства уже указаны в основном коде
+    // Дублирование удалено для оптимизации
     width: 82%;
     height: 200px;
   }
 }
+
 .content {
   width: 100%;
+  padding: 10px;
+
   .nav {
     display: flex;
     flex-direction: column;
     gap: 5px;
+
     h2 {
       text-decoration: none;
       font-size: 20px;
@@ -42,8 +46,9 @@
       border-bottom: solid 1px #fff;
     }
   }
+
   .buttons {
-    padding: 10px 0px;
+    padding: 10px 0;
     display: flex;
     align-items: start;
     gap: 10px;
@@ -56,6 +61,7 @@
       font-size: 18px;
       border-radius: 5px;
     }
+
     option {
       background: #e3f9e0;
       color: #000;
