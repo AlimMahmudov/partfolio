@@ -1,6 +1,6 @@
 .burger_menu {
   position: absolute;
-  bottom: -200px; // Указаны единицы измерения
+  bottom: 100px; // Указаны единицы измерения
   width: 82%;
   height: 200px;
   display: flex;
@@ -15,7 +15,7 @@
   transition: 0.5s;
 
   &.active {
-    bottom: 100px; // Логически связаны top и bottom
+    bottom: -200px; // Логически связаны top и bottom
     padding: 20px;
     transition: 0.5s;
   }
