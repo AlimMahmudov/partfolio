@@ -60,7 +60,7 @@ const Works = () => {
         <div className={scss.content}>
           <div data-aos="fade-left" className={scss.firstText}>
             <h1>{t("Project.title")}</h1>
-            <h2>Each project is a unique piece of development</h2>
+            <h2>{t("Project.desc")}</h2>
           </div>
           <div className={scss.blog}>
             {data.map((el, index) => (
