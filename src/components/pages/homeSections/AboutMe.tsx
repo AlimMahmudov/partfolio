@@ -24,7 +24,7 @@ const AboutMe = () => {
           </div>
           <div data-aos="fade-left" className={scss.text}>
             <div className={scss.text_about}>
-              <h1>{t("About.me")}</h1>
+              <h1>{t("About.about")}</h1>
 
               <h1 className={scss.me}>{t("About.me")}</h1>
             </div>
