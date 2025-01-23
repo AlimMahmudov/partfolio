@@ -23,9 +23,11 @@ const AboutMe = () => {
             <Image src={aboutImg} alt="" />
           </div>
           <div data-aos="fade-left" className={scss.text}>
-            <h1>
-              About <span>Me</span>
-            </h1>
+            <div className={scss.text_about}>
+              <h1>About</h1>
+
+              <h1 className={scss.me}>Me</h1>
+            </div>
             <h2>{t("About.title")}</h2>
             <p>{t("About.desc")}</p>
             <div className={scss.buttons}>
@@ -43,7 +45,6 @@ const AboutMe = () => {
                   </ScrollLink>
                 </button>
               ))}
-              {/* <button id="work">my contact</button> */}
             </div>
           </div>
         </div>

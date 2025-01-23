@@ -23,13 +23,19 @@
       display: flex;
       flex-direction: column;
       gap: 10px;
-      h1 {
-        color: white;
-        font-size: 40px;
-        span {
+      .text_about {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        h1 {
+          color: white;
+          font-size: 40px;
+        }
+        .me {
           color: #40be0e;
         }
       }
+
       h2 {
         color: #40be0e;
         font-size: 30px;
