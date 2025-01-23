@@ -28,7 +28,7 @@ const Works = () => {
       photo: restaran,
       title: t("Project.restoran"),
       description: t("Project.restoran desc"),
-      demo: "https://ortodont.vercel.app/",
+      demo: "https://motion-restaurant-alpha.vercel.app/",
       gitHub: "https://github.com/AlimMahmudov/motion-restaurant",
     },
     {
@@ -49,7 +49,7 @@ const Works = () => {
       photo: course,
       title: t("Project.cours"),
       description: t("Project.cours desc"),
-      demo: "https://ortodont.vercel.app/",
+      demo: "http://13.60.214.250:4000/",
       gitHub: "https://github.com/AlimMahmudov/it-course",
     },
   ];
