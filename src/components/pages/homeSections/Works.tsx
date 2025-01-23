@@ -21,8 +21,8 @@ const Works = () => {
       photo: barber,
       title: t("Project.barber"),
       description: t("Project.barber desc"),
-      demo: "https://ortodont.vercel.app/",
-      gitHub: "https://github.com/AlimMahmudov/ortodont",
+      demo: "https://barbershop-ten-smoky.vercel.app/",
+      gitHub: "https://github.com/AlimMahmudov/barbershop",
     },
     {
       photo: restaran,
