@@ -6,6 +6,7 @@ import BurgerMenu from "./BurgerMenu";
 import { useEffect, useState } from "react";
 import { useLanguageStore } from "@/stores/LanguageStore";
 import { GiHamburgerMenu } from "react-icons/gi";
+import Link from "next/link";
 
 const Header = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -95,7 +96,9 @@ const Header = () => {
                   <option value="ru">RU</option>
                   <option value="ky">EN</option>
                 </select>
-                <button className={scss.btn}>{t("Header.resume")}</button>
+                <Link href={"/Alim Makhmudov.pdf"} target={"_blank"}>
+                  <button className={scss.btn}>{t("Header.resume")}</button>
+                </Link>
               </div>
             </>
           )}
