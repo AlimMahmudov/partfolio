@@ -94,11 +94,13 @@ const Works = () => {
                   </div>
                 </div>
                 <div className={scss.image}>
-                  <Image
-                    className={scss.photo1}
-                    src={el.photo}
-                    alt={el.title}
-                  />
+                  <Link href={el.demo} target={"_blank"}>
+                    <Image
+                      className={scss.photo1}
+                      src={el.photo}
+                      alt={el.title}
+                    />
+                  </Link>
                 </div>
               </div>
             ))}
