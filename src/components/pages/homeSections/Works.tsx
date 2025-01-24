@@ -65,7 +65,7 @@ const Works = () => {
           <div className={scss.blog}>
             {data.map((el, index) => (
               <div
-                data-aos="fade-right"
+                data-aos="fade-up"
                 className={`${scss.card} ${
                   index % 2 !== 0 ? scss.row__reverse : ""
                 }`}
