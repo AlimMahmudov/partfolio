@@ -33,22 +33,32 @@ const Footer = () => {
           </div>
 
           <div className={scss.icons}>
-            <a className={scss.telegram} href="https://t.me/MahmudovAlim">
+            <a
+              className={scss.telegram}
+              href="https://t.me/MahmudovAlim"
+              target={"_blank"}
+            >
               <FaTelegramPlane />
             </a>
-            <a className={scss.telegram} href="https://github.com/AlimMahmudov">
+            <a
+              className={scss.telegram}
+              href="https://github.com/AlimMahmudov"
+              target={"_blank"}
+            >
               <FaGithub />
             </a>
 
             <a
               className={scss.telegram}
               href="https://www.instagram.com/alimdev_05"
+              target={"_blank"}
             >
               <FaLinkedin />
             </a>
             <a
               className={scss.telegram}
               href="https://www.instagram.com/alimdev_05"
+              target={"_blank"}
             >
               <AiFillInstagram />
             </a>
