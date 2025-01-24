@@ -1,6 +1,8 @@
 import React from "react";
 import scss from "../homeSections/Welcome.module.scss";
-import user1 from "../../../assets/Снимок экрана от 2024-08-04 06-07-43.png";
+// import user1 from "../../../assets/Снимок экрана от 2024-08-04 06-07-43.png";
+import user1 from "../../../assets/images/alimdev2025.jpg";
+
 import Image from "next/image";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaGithub } from "react-icons/fa";
