@@ -3,6 +3,7 @@ import React, { FC } from "react";
 import scss from "../header/BurgerMenu.module.scss";
 import { Link as ScrollLink } from "react-scroll";
 import { useLanguageStore } from "@/stores/LanguageStore";
+import Link from "next/link";
 
 interface LinksType {
   name: string;
@@ -49,7 +50,9 @@ const BurgerMenu: FC<BurgerMenuProps> = ({ links, isOpen }) => {
             <option value="ru">RU</option>
             <option value="ky">EN</option>
           </select>
-          <button className={scss.btn}>{t("Header.resume")}</button>
+          <Link href={"/Alim Makhmudov.pdf"} target={"_blank"}>
+            <button className={scss.btn}>{t("Header.resume")}</button>
+          </Link>
         </div>
       </div>
     </div>

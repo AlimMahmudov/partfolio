@@ -24,6 +24,7 @@ import { FaFigma } from "react-icons/fa6";
 import { SiVisualstudiocode } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { useLanguageStore } from "@/stores/LanguageStore";
+import Link from "next/link";
 
 const Welcome = () => {
   const { t } = useLanguageStore();
@@ -52,39 +53,43 @@ const Welcome = () => {
                 {t("Welcome.desc")}
               </p>
               <div className={scss.icons}>
-                <a
+                <Link
                   data-aos="zoom-in"
                   data-aos-delay="300"
                   className={scss.telegram}
                   href="https://t.me/MahmudovAlim"
+                  target={"_blank"}
                 >
                   <FaTelegramPlane />
-                </a>
-                <a
+                </Link>
+                <Link
                   data-aos="zoom-in"
                   data-aos-delay="300"
                   className={scss.telegram}
                   href="https://www.instagram.com/alimdev_05"
+                  target={"_blank"}
                 >
                   <AiFillInstagram />
-                </a>
+                </Link>
 
-                <a
+                <Link
                   data-aos="zoom-in"
                   data-aos-delay="300"
                   className={scss.telegram}
                   href="https://github.com/"
+                  target={"_blank"}
                 >
                   <FaGithub />
-                </a>
-                <a
+                </Link>
+                <Link
                   data-aos="zoom-in"
                   data-aos-delay="300"
                   className={scss.telegram}
                   href="https://github.com/"
+                  target={"_blank"}
                 >
                   <FaLinkedin />
-                </a>
+                </Link>
               </div>
             </div>
             <div data-aos="fade-left" className={scss.image}>
