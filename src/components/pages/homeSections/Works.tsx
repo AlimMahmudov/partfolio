@@ -82,12 +82,12 @@ const Works = () => {
                   </div>
                   <div className={scss.box}>
                     <h3>
-                      <Link href={el.gitHub}>
+                      <Link href={el.gitHub} target={"_blank"}>
                         Code <FaGithub />
                       </Link>
                     </h3>
                     <h3>
-                      <Link href={el.demo}>
+                      <Link href={el.demo} target={"_blank"}>
                         Live Demo <BsBoxArrowUpRight />
                       </Link>
                     </h3>
