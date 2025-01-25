@@ -93,7 +93,7 @@ const Welcome = () => {
               </div>
             </div>
             <div data-aos="fade-left" className={scss.image}>
-              <Image src={user1} alt="" />
+              <Image src={user1} alt="img" />
             </div>
           </div>
           <div className={scss.images}>
