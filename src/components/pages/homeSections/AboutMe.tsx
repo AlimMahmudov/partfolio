@@ -20,7 +20,7 @@ const AboutMe = () => {
       <div className="container">
         <div className={scss.content}>
           <div data-aos="fade-up" className={scss.image}>
-            <Image src={aboutImg} alt="" />
+            <Image src={aboutImg} alt="img" />
           </div>
           <div data-aos="fade-left" className={scss.text}>
             <div className={scss.text_about}>
