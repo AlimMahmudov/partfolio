@@ -9,7 +9,7 @@ const AboutMe = () => {
   const { t } = useLanguageStore();
   const links = [
     {
-      name: "Contact me",
+      name: t("About.contact"),
       link: "contcat",
     },
   ];
