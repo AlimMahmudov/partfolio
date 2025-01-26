@@ -5,15 +5,14 @@ import Image from "next/image";
 import { Link as ScrollLink } from "react-scroll";
 import { useLanguageStore } from "@/stores/LanguageStore";
 
-const links = [
-  {
-    name: "Contact me",
-    link: "contcat",
-  },
-];
-
 const AboutMe = () => {
   const { t } = useLanguageStore();
+  const links = [
+    {
+      name: "Contact me",
+      link: "contcat",
+    },
+  ];
 
   return (
     <section id="about" className={scss.AboutMe}>
