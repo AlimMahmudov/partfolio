@@ -94,7 +94,7 @@ const Header = () => {
               <div className={scss.buutons}>
                 <select onChange={handleChangeLanguage} value={language}>
                   <option value="ru">RU</option>
-                  <option value="ky">EN</option>
+                  <option value="en">EN</option>
                 </select>
                 <Link href={"/Alim Makhmudov.pdf"} target={"_blank"}>
                   <button className={scss.btn}>{t("Header.resume")}</button>
