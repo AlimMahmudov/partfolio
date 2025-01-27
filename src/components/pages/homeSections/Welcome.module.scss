@@ -197,7 +197,7 @@
       height: 65px;
       font-size: 40px;
       transition: 0.4s;
-      :hover {
+      &:hover {
         background: blue;
         box-shadow: 0 0 10px blue, 0 0 20px blue, 0 0 30px blue;
         color: rgb(9, 28, 46);
@@ -217,13 +217,13 @@
       height: 65px;
       font-size: 40px;
       transition: 0.4s;
-    }
-    .stack7:hover {
-      background: #8301fd;
-      box-shadow: 0 0 10px #8301fd, 0 0 20px #8301fd, 0 0 30px #8301fd;
-      color: rgb(9, 28, 46);
-      border: solid 3px white;
-      transition: 0.4s;
+      &:hover {
+        background: #8301fd;
+        box-shadow: 0 0 10px #8301fd, 0 0 20px #8301fd, 0 0 30px #8301fd;
+        color: rgb(9, 28, 46);
+        border: solid 3px white;
+        transition: 0.4s;
+      }
     }
     ////////
     .stack8 {
