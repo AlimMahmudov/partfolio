@@ -176,14 +176,15 @@
       height: 65px;
       font-size: 40px;
       transition: 0.4s;
+      &:hover {
+        background: #fd01e8;
+        box-shadow: 0 0 10px #fd01e8, 0 0 20px #fd01e8, 0 0 30px #fd01e8;
+        color: rgb(9, 28, 46);
+        border: solid 3px rgb(235, 158, 222);
+        transition: 0.4s;
+      }
     }
-    .stack5:hover {
-      background: #fd01e8;
-      box-shadow: 0 0 10px #fd01e8, 0 0 20px #fd01e8, 0 0 30px #fd01e8;
-      color: rgb(9, 28, 46);
-      border: solid 3px rgb(235, 158, 222);
-      transition: 0.4s;
-    }
+
     ////////
     .stack6 {
       border-radius: 50px;
