@@ -6,7 +6,6 @@ import Concat from "./homeSections/Contcat";
 import Works from "./homeSections/Works";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Skills from "./homeSections/Skills";
 
 const HomePage = () => {
   useEffect(() => {
@@ -19,7 +18,6 @@ const HomePage = () => {
   return (
     <>
       <Welcome />
-      <Skills />
       <AboutMe />
       <Works />
       <Concat />

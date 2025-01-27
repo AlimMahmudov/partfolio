@@ -9,6 +9,8 @@ import { FaGithub } from "react-icons/fa";
 import { FaTelegramPlane } from "react-icons/fa";
 import { Typewriter } from "react-simple-typewriter";
 import { FaLinkedin } from "react-icons/fa";
+import { useLanguageStore } from "@/stores/LanguageStore";
+import Link from "next/link";
 
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
@@ -23,8 +25,6 @@ import { FaGitAlt } from "react-icons/fa";
 import { FaFigma } from "react-icons/fa6";
 import { SiVisualstudiocode } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { useLanguageStore } from "@/stores/LanguageStore";
-import Link from "next/link";
 
 const Welcome = () => {
   const { t } = useLanguageStore();
