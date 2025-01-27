@@ -156,13 +156,13 @@
       height: 65px;
       font-size: 40px;
       transition: 0.4s;
-    }
-    .stack4:hover {
-      background: blue;
-      box-shadow: 0 0 10px blue, 0 0 20px blue, 0 0 30px blue;
-      color: rgb(9, 28, 46);
-      border: solid 3px aqua;
-      transition: 0.4s;
+      &:hover {
+        background: blue;
+        box-shadow: 0 0 10px blue, 0 0 20px blue, 0 0 30px blue;
+        color: rgb(9, 28, 46);
+        border: solid 3px aqua;
+        transition: 0.4s;
+      }
     }
     ////////
     .stack5 {
