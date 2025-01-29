@@ -1,7 +1,8 @@
 {
   "Welcome": {
     "title": "Hi, I'm Alim (AlimMah)",
-    "desc": "I am an experienced front-end developer with deep knowledge and skills in HTML, CSS, JavaScript, TypeScript coding and programming, as well as working with libraries and frameworks such as React, Redux and Next.js."
+    "desc": "I am an experienced front-end developer with deep knowledge and skills in HTML, CSS, JavaScript, TypeScript coding and programming, as well as working with libraries and frameworks such as React, Redux and Next.js.",
+    "front": "FRONT-END DEVELOPER|"
   },
   "About": {
     "contact": "Contact Me",
