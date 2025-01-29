@@ -40,7 +40,7 @@ const Welcome = () => {
               </h1>
               <h2 data-aos="fade-right" data-aos-delay="200">
                 <Typewriter
-                  words={["FRONT-END DEVELOPER"]}
+                  words={[t("Welcome.title")]}
                   loop={true}
                   cursor
                   cursorStyle="|"
