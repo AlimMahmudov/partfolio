@@ -783,13 +783,13 @@
         height: 70px;
         font-size: 40px;
         margin-top: 1px;
-      }
-      .stack12:hover {
-        background: #b4b2b2;
-        box-shadow: 0 0 10px #b4b2b2, 0 0 20px #b4b2b2, 0 0 30px #b4b2b2;
-        color: rgb(9, 28, 46);
-        border: solid 3px #e3e3f5;
-        transition: 0.4s;
+        &:hover {
+          background: #b4b2b2;
+          box-shadow: 0 0 10px #b4b2b2, 0 0 20px #b4b2b2, 0 0 30px #b4b2b2;
+          color: rgb(9, 28, 46);
+          border: solid 3px #e3e3f5;
+          transition: 0.4s;
+        }
       }
       //////
       .stack13 {
