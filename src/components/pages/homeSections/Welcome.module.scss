@@ -803,13 +803,13 @@
         height: 70px;
         font-size: 40px;
         margin-top: 1px;
-      }
-      .stack13:hover {
-        background: orangered;
-        box-shadow: 0 0 10px orangered, 0 0 20px orangered, 0 0 30px orangered;
-        color: rgb(9, 28, 46);
-        border: solid 3px rgb(241, 191, 115);
-        transition: 0.4s;
+        &:hover {
+          background: orangered;
+          box-shadow: 0 0 10px orangered, 0 0 20px orangered, 0 0 30px orangered;
+          color: rgb(9, 28, 46);
+          border: solid 3px rgb(241, 191, 115);
+          transition: 0.4s;
+        }
       }
       //////
       .stack14 {
