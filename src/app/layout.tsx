@@ -1,9 +1,16 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Shalimar } from "next/font/google";
 import "./globals.scss";
 import LayoutPage from "@/components/layout/LayoutPage";
 
 const inter = Inter({ subsets: ["latin"] });
+// const shalimar = Shalimar({ subsets: ["latin"] });
+
+const shalimar = Shalimar({
+  variable: "--font-shalimar", // Название переменной соответствует шрифту
+  subsets: ["latin"],
+  weight: ["400"], // Убедись, что Shalimar поддерживает эти толщины
+});
 
 export const metadata: Metadata = {
   title: "AlimMah | Frontend Developer",
@@ -20,7 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className} ${shalimar.className}`}>
         <LayoutPage>{children}</LayoutPage>
       </body>
     </html>
