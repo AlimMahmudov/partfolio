@@ -25,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} ${manrope.className}`}>
+      <body className={`${inter.className} ${manrope.variable}`}>
         <LayoutPage>{children}</LayoutPage>
       </body>
     </html>
