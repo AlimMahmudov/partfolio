@@ -188,6 +188,7 @@
         flex-direction: column;
         text-align: start;
         gap: 10px;
+        width: 100%;
         h1 {
           font-size: 30px;
         }
@@ -198,7 +199,7 @@
 
         p {
           font-size: 16px;
-          width: 90%;
+          width: 100%;
         }
         .buttons {
           button {
