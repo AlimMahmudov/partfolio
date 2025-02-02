@@ -4,12 +4,10 @@ import "./globals.scss";
 import LayoutPage from "@/components/layout/LayoutPage";
 
 const inter = Inter({ subsets: ["latin"] });
-// const shalimar = Shalimar({ subsets: ["latin"] });
-
 const manrope = Manrope({
-  variable: "--font-manrope", // Добавляем переменную для использования в CSS
+  variable: "--font-manrope",
   subsets: ["latin"],
-  weight: ["400", "500", "700"], // Выбираем нужные толщины (можно изменить)
+  weight: ["400", "500", "700"],
 });
 
 export const metadata: Metadata = {
