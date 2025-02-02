@@ -45,10 +45,19 @@ const BurgerMenu: FC<BurgerMenuProps> = ({ links, isOpen }) => {
             </h2>
           ))}
         </div>
+        {/* <div className={scss.buutons}>
+                <select onChange={handleChangeLanguage} value={language}>
+                  <option value="en">EN</option>
+                  <option value="ru">RU</option>
+                </select>
+                <Link href={"/Alim Makhmudov.pdf"} target={"_blank"}>
+                  <button className={scss.btn}>{t("Header.resume")}</button>
+                </Link>
+              </div> */}
         <div className={scss.buttons}>
           <select onChange={handleChangeLanguage} value={language}>
+            <option value="en">EN</option>
             <option value="ru">RU</option>
-            <option value="ky">EN</option>
           </select>
           <Link href={"/Alim Makhmudov.pdf"} target={"_blank"}>
             <button className={scss.btn}>{t("Header.resume")}</button>
