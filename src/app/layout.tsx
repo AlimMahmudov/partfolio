@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
-import { Inter, Shalimar } from "next/font/google";
+import { Inter, Manrope } from "next/font/google";
 import "./globals.scss";
 import LayoutPage from "@/components/layout/LayoutPage";
 
 const inter = Inter({ subsets: ["latin"] });
 // const shalimar = Shalimar({ subsets: ["latin"] });
 
-const shalimar = Shalimar({
-  variable: "--font-shalimar", // Название переменной соответствует шрифту
+const manrope = Manrope({
+  variable: "--font-manrope", // Добавляем переменную для использования в CSS
   subsets: ["latin"],
-  weight: ["400"], // Убедись, что Shalimar поддерживает эти толщины
+  weight: ["400", "500", "700"], // Выбираем нужные толщины (можно изменить)
 });
 
 export const metadata: Metadata = {
@@ -27,7 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} ${shalimar.className}`}>
+      <body className={`${inter.className} ${manrope.className}`}>
         <LayoutPage>{children}</LayoutPage>
       </body>
     </html>
